@@ -84,7 +84,7 @@ header .right-nav button:hover {
     background-color: var(--white) !important;
     border: 1px solid var(--main-color);
     border-radius: 5px;
-    z-index: 1;
+    z-index: 10;
 }
 
 header .right-nav.open ul {
