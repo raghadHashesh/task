@@ -1,0 +1,154 @@
+.footer {
+    background-color: var(--second-color);
+    font-size: 0.9rem;
+    height: 60vh;
+    width: 100%;
+}
+
+.footer .container {
+    margin: 50px auto;
+    padding-bottom: 20px;
+    border-bottom: 1px solid var(--veryLight-gray);
+}
+
+.footer h6 {
+    font-weight: 600;
+    font-size: 0.9rem;
+}
+
+.footer ul li.demo {
+    color: var(--main-color);
+    font-weight: 600;
+    margin-top: 10px;
+}
+
+.footer .email {
+    height: 40px;
+    width: fit-content;
+    margin-top: 30px;
+    background-color: var(--white);
+    border-radius: 34px;
+    padding: 0;
+}
+
+.footer input {
+    height: 100%;
+    padding-left: 20px;
+    border-radius: 34px;
+    border: 0;
+}
+
+.footer input:focus {
+    outline: 0;
+}
+
+.footer input::placeholder {
+    color: var(--light-gray);
+}
+
+.footer .button {
+    background-color: var(--main-color);
+    height: 100%;
+}
+
+@media (max-width:992px) {
+    .footer {
+        height: 100vh;
+    }
+
+    .footer .container {
+        margin: 10px auto;
+    }
+}
+
+@media (max-width:767px) {
+    .footer .container {
+        padding-bottom: 10px;
+    }
+
+    .footer .email {
+        margin-left: 20%;
+        margin-top: 3%;
+        height: 25px;
+    }
+
+    .footer .button {
+        height: 100%;
+    }
+}
+
+@media (max-width:575px) {
+    .footer .email {
+        margin-left: 20%;
+        height: 29px;
+    }
+
+    .footer input {
+        padding-left: 10px;
+    }
+
+    .footer .button {
+        padding-top: 2%;
+        height: 100%;
+    }
+}
+
+@media (max-width:450px) {
+    .footer .email {
+        margin-left: 10%;
+        height: 30px;
+        margin: 10px 10% !important;
+
+    }
+
+    .footer input {
+        padding-left: 7px;
+        padding: 0 7px !important;
+    }
+
+    .footer .button {
+        height: 100%;
+    }
+
+}
+
+@media (max-width:390px) {
+    .footer .email {
+        margin-left: 10px;
+        height: 30px;
+        margin: 10px 10% !important;
+    }
+
+    .footer input {
+        padding: 0 !important;
+    }
+
+    .footer .button {
+
+        width: 65px;
+    }
+}
+
+@media (max-width:330px) {
+    .footer .email {
+        margin-left: 10px;
+        height: 30px;
+        margin: 10px 10% !important;
+    }
+
+    .footer input {
+        padding: 0 !important;
+        width: 120px;
+    }
+
+    .footer .button {
+        width: 65px;
+    }
+}
+@media (max-width:255px) {
+
+    .footer input {
+        padding: 0 !important;
+        width: 100px;
+    }
+}

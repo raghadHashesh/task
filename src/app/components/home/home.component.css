@@ -1,0 +1,231 @@
+main {
+    width: 100%;
+    height: calc(100vh - 75px);
+    margin: 0 auto;
+    background: var(--main-color);
+}
+
+
+main .left {
+    width: 50%;
+    position: relative;
+}
+
+main .left img:first-child {
+    width: 70%;
+    position: absolute;
+    top: 20%;
+    left: 12%;
+}
+
+main .left img:nth-child(2) {
+    width: 70%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+main .right {
+    width: 50%;
+    margin: 10em auto;
+    color: var(--white);
+}
+
+main .right h1 {
+    text-transform: uppercase;
+    font-weight: 800;
+    font-size: 3rem;
+}
+
+main .right p {
+    width: 50%;
+    color: var(--veryLight-gray);
+}
+
+main .right>div {
+    width: 35%;
+}
+
+
+@media(max-width:992px) {
+    main .left img:first-child {
+        width: 60% !important;
+        left: 15% !important;
+    }
+
+    main .left img:nth-child(2) {
+        width: 75%;
+    }
+
+    main .right {
+        margin: 5em auto;
+    }
+
+    main .right h1 {
+        font-size: 2.2rem;
+    }
+
+    main .right>div {
+        width: 50%;
+    }
+
+    main .right p {
+        width: 70%;
+    }
+
+    main .right button {
+        font-size: 0.8rem;
+        height: 30px;
+    }
+
+    main .left img:first-child {
+        top: 25%;
+        left: 20%;
+    }
+}
+
+
+@media(max-width:767px) {
+
+    .one-content {
+        align-items: center;
+        text-align: center;
+        height: 100vh;
+    }
+
+    main .right h1 {
+        font-size: 2.2rem;
+    }
+
+    .one-content .left {
+        width: 100% !important;
+        height: 65%;
+        margin-bottom: 10px;
+    }
+
+    .one-content .right {
+        width: 100% !important;
+        margin-top: 0;
+    }
+
+    main .left img:first-child {
+        width: 40% !important;
+        left: 32% !important;
+
+    }
+
+    main .left img:nth-child(2) {
+        width: 50%;
+        left: 10%;
+        height: 100%;
+        margin-left: 70px;
+    }
+
+    main .right p {
+        margin: 0 auto;
+        margin-bottom: 10px;
+    }
+
+    main .right>div {
+        width: 30%;
+        margin: 0 auto;
+    }
+
+    main .right button {
+        font-size: 0.8rem;
+        height: 30px;
+    }
+}
+
+@media(max-width:575px) {
+    main .left {
+        height: 50% !important;
+    }
+
+    main .left img:first-child {
+        width: 45% !important;
+        left: 32% !important;
+        top: 25% !important;
+    }
+
+    main .right h1 {
+        font-size: 1.6rem;
+    }
+
+    main .right>div {
+        width: 40%;
+        margin: 0 auto;
+    }
+
+}
+
+@media (max-width:490px) {
+    .one-content .left {
+        height: 50%;
+    }
+
+    main .left img:first-child {
+        width: 60%;
+
+    }
+}
+
+@media (max-width:460px) {
+    .one-content .left {
+        height: 60%;
+        margin-bottom: 0;
+    }
+
+    .one-content {
+        height: 120vh;
+    }
+
+    main .left img:first-child {
+        width: 60%;
+        left: 28% !important;
+
+    }
+
+    main .left img:nth-child(2) {
+        width: 60%;
+        height: 90%;
+        margin-left: 20px;
+    }
+
+    main .right h1 {
+        font-size: 1.6rem;
+    }
+
+    main .right>div {
+        width: 60%;
+        margin: 0 auto;
+    }
+
+}
+
+@media (max-width:360px) {
+    main .left {
+        height: 40% !important;
+    }
+
+    main .left img:first-child {
+        width: 60% !important;
+        left: 27% !important;
+    }
+
+    main .left img:nth-child(2) {
+        width: 70%;
+        height: 90%;
+        margin-left: 10px !important;
+    }
+
+    main .right h1 {
+        font-size: 1.4rem;
+    }
+
+    main .right>div {
+        width: 80%;
+        margin: 0 auto;
+    }
+
+}

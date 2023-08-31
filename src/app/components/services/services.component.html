@@ -1,0 +1,26 @@
+<div class="page-three">
+    <div class="container">
+        <div class="top d-flex align-items-center w-100">
+            <div class="title w-50 mb-3">
+                <h1>services</h1>
+                <p>We are focused on providing the best experience for you</p>
+            </div>
+            <img src="../../../assets/images/Group 54.svg" alt="">
+        </div>
+        <div class="position-relative bott">
+            <div class="bottom d-flex align-items-center">
+                <div class="image w-50">
+                    <img src="../../../assets/images/MaskGroup2.png" alt="">
+                </div>
+                <div class="right w-50">
+                    <div class="service" *ngFor="let service of services">
+                        <h6>{{service.title}}</h6>
+                        <p>{{service.description}}</p>
+                        <button class="read">read more <i class='bx bx-right-arrow-alt'></i></button>
+                    </div>
+                </div>
+            </div>
+            <img src="../../../assets/images/Group 54.svg " alt="" class="bottom-img">
+        </div>
+    </div>
+</div>

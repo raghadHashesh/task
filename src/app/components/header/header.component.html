@@ -1,0 +1,18 @@
+<header>
+    <nav class="navbar container">
+        <a class="navbar-brand" href="#">
+            <img src="../../../assets/images/logo.svg" alt="">
+        </a>
+        <i class="bx bx-menu" (click)="toggleMenu()"></i>
+        <div class="d-flex align-items-center right-nav" [ngClass]="{ 'open': isOpen }">
+            <ul class="d-flex align-items-center">
+                <li [routerLinkActive]="'active'"><a routerLink="/about">about us</a></li>
+                <li [routerLinkActive]="'active'"><a routerLink="/services">our services</a></li>
+                <li [routerLinkActive]="'active'"><a routerLink="/why">why us</a></li>
+                <li [routerLinkActive]="'active'"><a routerLink="/news">news</a></li>
+                <li [routerLinkActive]="'active'"><a routerLink="/contact">contact us</a></li>
+            </ul>
+            <button class="request">request a demo</button>
+        </div>
+    </nav>
+</header>
