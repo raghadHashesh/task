@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { ActivatedRoute, Route } from '@angular/router';
+import { ActivatedRoute, Route, Router } from '@angular/router';
 
 @Component({
   selector: 'app-root',
@@ -7,10 +7,10 @@ import { ActivatedRoute, Route } from '@angular/router';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  router;
   title = 'front task';
-  constructor(private route: ActivatedRoute) { 
-    this.router=route
+  rout;
+  constructor(private route: ActivatedRoute, private router: Router) {
+    this.rout = router;
   }
 
 }

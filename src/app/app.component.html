@@ -1,6 +1,9 @@
 <app-header></app-header>
 <router-outlet class="position-relative">
 </router-outlet>
-<i class='bx bx-arrow-back' routerLink="/home"></i>
+<ng-container *ngIf="rout.url !=='/home'">
+    <i class='bx bx-arrow-back' routerLink="/home"></i>
+</ng-container>
+
 
 
